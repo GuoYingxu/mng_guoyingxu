@@ -1,0 +1,29 @@
+
+export const Config = {
+  'development':{
+    client_name:'mng_guoyingxu',
+    client_id:'16b0f2b0-e0a3-4cee-a34a-fa825fc6adb9',
+    host:'http://localhost:3002',
+    oauthHost:'http://localhost:3001',
+    qiniu:{
+      Bucket:"develop",
+      Port:19110,
+      Domain:{
+        develop:'http://pbl209ecp.bkt.clouddn.com'
+      }
+    }
+  },
+  'production':{
+    client_name:'mng_guoyingxu',
+    client_id:'16b0f2b0-e0a3-4cee-a34a-fa825fc6adb9',
+    host:'http://mng.guoyingxu.com',
+    oauthHost:'http://api.guoyingxu.com',
+    qiniu:{
+      Bucket:"develop",
+      Port:19110,
+      Domain:{
+        develop:'http://pbl209ecp.bkt.clouddn.com'
+      }
+    }
+  }
+}
